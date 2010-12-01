@@ -1,0 +1,164 @@
+TSysSound
+v7
+r1
+cCheck dependencies
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib
+c000000004C3A4EC00000000000002349
+t1278889664
+s9033
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib
+c000000004C435D6A00000000000043C3
+t1279483242
+s17347
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Default.png
+c000000004C428A350000000000002610
+t1279429173
+s9744
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-72.png
+c000000004C428A350000000000000427
+t1279429173
+s1063
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small-50.png
+c000000004C428A3500000000000003E0
+t1279429173
+s992
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small.png
+c000000004C428A350000000000000396
+t1279429173
+s918
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small@2x.png
+c000000004C428A3500000000000003F2
+t1279429173
+s1010
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon.png
+c000000004C428A3500000000000003EF
+t1279429173
+s1007
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon@2x.png
+c000000004C428A3500000000000004E4
+t1279429173
+s1252
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork
+c000000004C428A350000000000001444
+t1279429173
+s5188
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif
+c000000004C428A350000000000005760
+t1279429173
+s22368
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Default.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-72.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small-50.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small@2x.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon@2x.png
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Info.plist
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/PkgInfo
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/en.lproj/SysSoundViewController.nib
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/iTunesArtwork
+t2
+s0
+
+N/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/tap.aif
+t2
+s0
+
+NInfo.plist
+c000000004C435D6A0000000000000448
+t1279483242
+s1096
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312857770#312857770#0(183"[BEROR]error: There is no SDK with the name or path 'iphoneos4.0'[BWARN]warning: Build setting "iOS Deployment Target" should not be empty (current IPHONEOS_DEPLOYMENT_TARGET = "").2(4@58"error: There is no SDK with the name or path 'iphoneos4.0'312857770#18446744073709551615#0#0(1@0"0(22@109"warning: Build setting "iOS Deployment Target" should not be empty (current IPHONEOS_DEPLOYMENT_TARGET = "").312857770#18446744073709551615#0#0(1@0"0(0#1#0"8609167232#0"0#
+
+CCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib"
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Default.png" Resources/images/Default.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-72.png" Resources/images/Icon-72.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small-50.png" Resources/images/Icon-Small-50.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small.png" Resources/images/Icon-Small.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon-Small@2x.png" Resources/images/Icon-Small@2x.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon.png" Resources/images/Icon.png
+r0
+
+CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Icon@2x.png" Resources/images/Icon@2x.png
+r0
+
+CCpResource build/Debug-iphoneos/SysSound.app/iTunesArtwork Resources/images/iTunesArtwork
+r0
+
+CCpResource build/Debug-iphoneos/SysSound.app/tap.aif Resources/sounds/tap.aif
+r0
+
+CProcessInfoPlistFile "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app/Info.plist" Info.plist
+r0
+
+CTouch "/Users/robert/dev/iOS/SysSound 2/build/Debug-iphoneos/SysSound.app"
+r0
+
