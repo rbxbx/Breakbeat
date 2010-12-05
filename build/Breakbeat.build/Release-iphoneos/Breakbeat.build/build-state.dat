@@ -1,659 +1,0 @@
-TBreakbeat
-v7
-r0
-t312869069.008947
-cCheck dependencies
-cCpResource build/Release-iphoneos/Breakbeat.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Info.plist" Info.plist
-cCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib"
-cCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib"
-cCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Default.png" Resources/images/Default.png
-cCpResource build/Release-iphoneos/Breakbeat.app/iTunesArtwork Resources/images/iTunesArtwork
-cCpResource build/Release-iphoneos/Breakbeat.app/tap.aif Resources/sounds/tap.aif
-cCpResource build/Release-iphoneos/Breakbeat.app/amen.wav Resources/sounds/amen.wav
-cCpResource build/Release-iphoneos/Breakbeat.app/rock_steady.wav Resources/sounds/rock_steady.wav
-cCpResource build/Release-iphoneos/Breakbeat.app/funky_drummer.wav Resources/sounds/funky_drummer.wav
-cCpResource build/Release-iphoneos/Breakbeat.app/think.wav Resources/sounds/think.wav
-cCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/icon.png" Resources/images/icon.png
-cProcessPCH /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch.gch Breakbeat_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch.gch Breakbeat_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundViewController.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat" normal armv6
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundViewController.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat" normal armv7
-cCreateUniversalBinary "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat" normal "armv6 armv7"
-cGenerateDSYMFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app.dSYM" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat"
-cProcessProductPackaging "/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision"
-cTouch "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent"
-cCodeSign "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC10EF400000000003B8CB0
-t1287720692
-s3902640
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC10EB60000000000000A23
-t1287720630
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision
-c000000004CF5C6680000000000001C0A
-t1291175528
-s7178
-
-N/Users/robert/dev/iOS/SysSound 2/Breakbeat_Prefix.pch
-c00000000491B4DA400000000000000B1
-t1226526116
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.h
-c000000004CF46575000000000000015F
-t1291085173
-s351
-i<UIKit/UIKit.h>
-
-N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m
-c000000004CF465C800000000000008F8
-t1291085256
-s2296
-i"SysSoundAppDelegate.h"
-i"SysSoundViewController.h"
-
-N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.h
-c000000004CF5BC1F00000000000005C6
-t1291172895
-s1478
-i<UIKit/UIKit.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m
-c000000004CF5BCA300000000000009BD
-t1291173027
-s2493
-i"SysSoundViewController.h"
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib
-c000000004C3A4EC00000000000002349
-t1278889664
-s9033
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib
-c000000004CF5BC6F0000000000004EBA
-t1291172975
-s20154
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Default.png
-c000000004C428A350000000000002610
-t1279429173
-s9744
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-72.png
-c000000004C428A350000000000000427
-t1279429173
-s1063
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small-50.png
-c000000004C428A3500000000000003E0
-t1279429173
-s992
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small.png
-c000000004C428A350000000000000396
-t1279429173
-s918
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon-Small@2x.png
-c000000004C428A3500000000000003F2
-t1279429173
-s1010
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon.png
-c000000004C428A3500000000000003EF
-t1279429173
-s1007
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon@2x.png
-c000000004C428A3500000000000004E4
-t1279429173
-s1252
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork
-c000000004C428A350000000000001444
-t1279429173
-s5188
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/images/icon.png
-c000000004CF5C8BB0000000000001151
-t1291176123
-s4433
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav
-c000000004C423A98000000000003CCF8
-t1279408792
-s249080
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav
-c00000000433624D60000000000331A2C
-t1127621846
-s3349036
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav
-c00000000431907F4000000000018492C
-t1125713908
-s1591596
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif
-c000000004C428A350000000000005760
-t1279429173
-s22368
-
-N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav
-c000000004CF5B660000000000007C5BA
-t1291171424
-s509370
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent
-t1291176268
-s424
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat
-t1291176267
-s20768
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat.LinkFileList
-c000000004CF5C946000000000000017D
-t1291176262
-s381
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundAppDelegate.o
-t1291176267
-s50188
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundViewController.o
-t1291176267
-s48260
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/main.o
-t1291176267
-s6496
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat
-t1291176268
-s20768
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat.LinkFileList
-c000000004CF5C946000000000000017D
-t1291176262
-s381
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundAppDelegate.o
-t1291176267
-s50196
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundViewController.o
-t1291176268
-s48180
-
-N/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/main.o
-t1291176267
-s6476
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app
-t1291176268
-s612
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app.dSYM
-t1291176268
-s102
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat
-t1291176268
-s49440
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Default.png
-t1291176265
-s11689
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-72.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small-50.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small@2x.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon@2x.png
-t2
-s0
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Info.plist
-t1291176262
-s923
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/PkgInfo
-t1291176262
-s8
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/ResourceRules.plist
-t1291176262
-s485
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/amen.wav
-t1291176265
-s249080
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision
-t1291176268
-s7178
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/en.lproj/MainWindow.nib
-t1291176264
-s1101
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/en.lproj/SysSoundViewController.nib
-t1291176264
-s2497
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/funky_drummer.wav
-t1291176265
-s3349036
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/iTunesArtwork
-t1291176265
-s5188
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/icon.png
-t1291176265
-s5157
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/rock_steady.wav
-t1291176265
-s1591596
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/tap.aif
-t1291176265
-s22368
-
-N/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/think.wav
-t1291176265
-s509370
-
-N/Users/robert/dev/iOS/SysSound 2/main.m
-c000000004CF4661900000000000000D6
-t1291085337
-s214
-i<UIKit/UIKit.h>
-
-N/var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch.gch
-t1291176267
-s10249944
-
-N/var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch.gch
-t1291176267
-s9783000
-
-NInfo.plist
-c000000004C435D6A0000000000000448
-t1279483242
-s1096
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies312869062#312869062#0(0"0(0#1#0"8612515968#0"0#
-
-CCodeSign "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"
-s312869068.295494
-e312869069.008795
-r1
-xCodeSign
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app
-lSLF07#2@45"CodeSign build/Release-iphoneos/Breakbeat.app312869068#312869069#0(0"0(0#0#69"/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app8612758048#648"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Robert Pitts (A26WHYR8X4)" "--resource-rules=/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/ResourceRules.plist" --entitlements "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312869067.473539
-e312869067.645332
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundAppDelegate.o
-x/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m312869067#312869067#0(0"0(0#0#62"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m8612604512#1776"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv6" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundAppDelegate.o"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundViewController.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312869067.549265
-e312869067.786905
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundViewController.o
-x/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m312869067#312869067#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m8610879552#1782"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv6" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/SysSoundViewController.o"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312869067.472174
-e312869067.549141
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/main.o
-x/Users/robert/dev/iOS/SysSound 2/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/robert/dev/iOS/SysSound 2/main.m312869067#312869067#0(0"0(0#0#39"/Users/robert/dev/iOS/SysSound 2/main.m8612939616#1738"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv6" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/main.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/main.o"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312869067.794881
-e312869067.961037
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundAppDelegate.o
-x/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m312869067#312869067#0(0"0(0#0#62"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m8612353312#1776"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv7" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundAppDelegate.o"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundViewController.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312869067.906090
-e312869068.095842
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundViewController.o
-x/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m312869067#312869068#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m8614092032#1782"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv7" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/SysSoundViewController.o"0#
-
-CCompileC build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312869067.645474
-e312869067.794763
-r1
-xCompileC
-xbuild/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/main.o
-x/Users/robert/dev/iOS/SysSound 2/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/robert/dev/iOS/SysSound 2/main.m312869067#312869067#0(0"0(0#0#39"/Users/robert/dev/iOS/SysSound 2/main.m8613830336#1738"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv7" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/main.m" -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/main.o"0#
-
-CCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib"
-s312869062.901755
-e312869064.761406
-r1
-xCompileXIB
-x/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib
-lSLF07#2@44"CompileXIB Resources/en.lproj/MainWindow.xib312869062#312869064#0(0"0(0#0#66"/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib8613093408#562"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/en.lproj/MainWindow.nib" "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib"
-s312869062.902694
-e312869064.982820
-r1
-xCompileXIB
-x/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib
-lSLF07#2@56"CompileXIB Resources/en.lproj/SysSoundViewController.xib312869062#312869064#0(0"0(0#0#78"/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib8612940992#586"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/en.lproj/SysSoundViewController.nib" "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Default.png" Resources/images/Default.png
-s312869064.761635
-e312869065.347508
-r1
-xCopyPNGFile
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Default.png
-xResources/images/Default.png
-lSLF07#2@89"CopyPNGFile build/Release-iphoneos/Breakbeat.app/Default.png Resources/images/Default.png312869064#312869065#0(0"0(0#0#61"/Users/robert/dev/iOS/SysSound 2/Resources/images/Default.png8612285120#571"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/robert/dev/iOS/SysSound 2/Resources/images/Default.png" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Default.png"0#
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-72.png" Resources/images/Icon-72.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small-50.png" Resources/images/Icon-Small-50.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small.png" Resources/images/Icon-Small.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon-Small@2x.png" Resources/images/Icon-Small@2x.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon.png" Resources/images/Icon.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Icon@2x.png" Resources/images/Icon@2x.png
-r0
-
-CCopyPNGFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/icon.png" Resources/images/icon.png
-s312869064.991262
-e312869065.333982
-r1
-xCopyPNGFile
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/icon.png
-xResources/images/icon.png
-lSLF07#2@83"CopyPNGFile build/Release-iphoneos/Breakbeat.app/icon.png Resources/images/icon.png312869064#312869065#0(0"0(0#0#58"/Users/robert/dev/iOS/SysSound 2/Resources/images/icon.png8609570560#565"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/robert/dev/iOS/SysSound 2/Resources/images/icon.png" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/icon.png"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s312869062.860962
-e312869062.901647
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist312869062#312869062#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8613576960#511"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/amen.wav Resources/sounds/amen.wav
-s312869064.984525
-e312869065.074649
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/amen.wav
-xResources/sounds/amen.wav
-lSLF07#2@30"Copy Resources/sounds/amen.wav312869064#312869065#0(0"0(0#0#58"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav8610765376#482"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/funky_drummer.wav Resources/sounds/funky_drummer.wav
-s312869064.987534
-e312869065.236742
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/funky_drummer.wav
-xResources/sounds/funky_drummer.wav
-lSLF07#2@39"Copy Resources/sounds/funky_drummer.wav312869064#312869065#0(0"0(0#0#67"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav8610543424#491"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/iTunesArtwork Resources/images/iTunesArtwork
-s312869064.982930
-e312869065.347690
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/iTunesArtwork
-xResources/images/iTunesArtwork
-lSLF07#2@35"Copy Resources/images/iTunesArtwork312869064#312869065#0(0"0(0#0#63"/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork8612060384#487"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/rock_steady.wav Resources/sounds/rock_steady.wav
-s312869064.985481
-e312869065.230214
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/rock_steady.wav
-xResources/sounds/rock_steady.wav
-lSLF07#2@37"Copy Resources/sounds/rock_steady.wav312869064#312869065#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav8610590144#489"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/tap.aif Resources/sounds/tap.aif
-s312869064.983775
-e312869065.022279
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/tap.aif
-xResources/sounds/tap.aif
-lSLF07#2@29"Copy Resources/sounds/tap.aif312869064#312869065#0(0"0(0#0#57"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif8612001888#481"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCpResource build/Release-iphoneos/Breakbeat.app/think.wav Resources/sounds/think.wav
-s312869064.989397
-e312869065.188968
-r1
-xCpResource
-xbuild/Release-iphoneos/Breakbeat.app/think.wav
-xResources/sounds/think.wav
-lSLF07#2@31"Copy Resources/sounds/think.wav312869064#312869065#0(0"0(0#0#59"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav8610174976#483"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
-CCreateUniversalBinary "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat" normal "armv6 armv7"
-s312869068.195874
-e312869068.200144
-r1
-xCreateUniversalBinary
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat
-xnormal
-xarmv6 armv7
-lSLF07#2@89"CreateUniversalBinary build/Release-iphoneos/Breakbeat.app/Breakbeat normal "armv6 armv7"312869068#312869068#0(0"0(0#0#44"/Users/robert/dev/iOS/SysSound 2/armv6 armv78612783328#524"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat" "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat" -output "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat"0#
-
-CGenerateDSYMFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app.dSYM" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat"
-s312869068.200241
-e312869068.267542
-r1
-xGenerateDSYMFile
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app.dSYM
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat
-lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/Breakbeat.app.dSYM build/Release-iphoneos/Breakbeat.app/Breakbeat312869068#312869068#0(0"0(0#0#79"/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat8604261440#360"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Breakbeat" -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app.dSYM"0#
-
-CLd "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat" normal armv6
-s312869067.787010
-e312869067.905971
-r1
-xLd
-x/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat
-xnormal
-xarmv6
-lSLF07#2@123"Link /Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat312869067#312869067#0(0"0(0#0#0"8612892864#859"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" -filelist "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework AudioToolbox -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv6/Breakbeat"0#
-
-CLd "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat" normal armv7
-s312869068.095947
-e312869068.195747
-r1
-xLd
-x/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat
-xnormal
-xarmv7
-lSLF07#2@123"Link /Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat312869068#312869068#0(0"0(0#0#0"8613345248#859"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" -filelist "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework AudioToolbox -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Objects-normal/armv7/Breakbeat"0#
-
-CProcessInfoPlistFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Info.plist" Info.plist
-s312869062.861947
-e312869062.866888
-r1
-xProcessInfoPlistFile
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist312869062#312869062#0(0"0(0#0#43"/Users/robert/dev/iOS/SysSound 2/Info.plist8613469632#550"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/ResourceRules.plist" -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/Info.plist"0#
-
-CProcessPCH /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch.gch Breakbeat_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312869065.348940
-e312869067.472032
-r1
-xProcessPCH
-x/var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch.gch
-xBreakbeat_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile Breakbeat_Prefix.pch312869065#312869067#0(0"0(0#0#53"/Users/robert/dev/iOS/SysSound 2/Breakbeat_Prefix.pch8613838496#1636"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv7" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -c "/Users/robert/dev/iOS/SysSound 2/Breakbeat_Prefix.pch" -o /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-bffsudoycopxlncrvgpwzzqmzlht/Breakbeat_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch.gch Breakbeat_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312869065.347811
-e312869067.317861
-r1
-xProcessPCH
-x/var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch.gch
-xBreakbeat_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile Breakbeat_Prefix.pch312869065#312869067#0(0"0(0#0#53"/Users/robert/dev/iOS/SysSound 2/Breakbeat_Prefix.pch8614383552#1636"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/include" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources/armv6" "-I/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/DerivedSources" -c "/Users/robert/dev/iOS/SysSound 2/Breakbeat_Prefix.pch" -o /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Breakbeat_Prefix-ejqjyiivjznvmgcdntczdzzosyym/Breakbeat_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision"
-s312869068.267827
-e312869068.269848
-r1
-xProcessProductPackaging
-x/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision
-lSLF07#2@197"ProcessProductPackaging "/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision" build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision312869068#312869068#0(0"0(0#0#94"/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision8614593792#420"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/robert/Library/MobileDevice/Provisioning Profiles/DE4477DD-C20B-49BC-AF6B-5A4AB82C4377.mobileprovision" -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app/embedded.mobileprovision"0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent"
-s312869068.273847
-e312869068.295404
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent
-lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent312869068#312869068#0(0"0(0#0#103"/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent8613274688#432"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/robert/dev/iOS/SysSound 2/build/Breakbeat.build/Release-iphoneos/Breakbeat.build/Breakbeat.xcent"0#
-
-CTouch "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"
-s312869068.269935
-e312869068.273743
-r1
-xTouch
-x/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app
-lSLF07#2@75"Touch /Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app312869068#312869068#0(0"0(0#0#0"8613817024#260"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/robert/dev/iOS/SysSound 2/build/Release-iphoneos/Breakbeat.app"0#
-
