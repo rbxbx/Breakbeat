@@ -1,7 +1,7 @@
 TSysSound
 v7
 r0
-t312862608.069456
+t312865830.335494
 cCheck dependencies
 cProcessInfoPlistFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Info.plist" Info.plist
 cCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib"
@@ -15,7 +15,10 @@ cCpResource build/Release-iphonesimulator/SysSound.app/Icon.png Resources/images
 cCpResource build/Release-iphonesimulator/SysSound.app/Icon@2x.png Resources/images/Icon@2x.png
 cCpResource build/Release-iphonesimulator/SysSound.app/iTunesArtwork Resources/images/iTunesArtwork
 cCpResource build/Release-iphonesimulator/SysSound.app/tap.aif Resources/sounds/tap.aif
-cCpResource build/Release-iphonesimulator/SysSound.app/amen_full.wav Resources/sounds/amen_full.wav
+cCpResource build/Release-iphonesimulator/SysSound.app/amen.wav Resources/sounds/amen.wav
+cCpResource build/Release-iphonesimulator/SysSound.app/rock_steady.wav Resources/sounds/rock_steady.wav
+cCpResource build/Release-iphonesimulator/SysSound.app/funky_drummer.wav Resources/sounds/funky_drummer.wav
+cCpResource build/Release-iphonesimulator/SysSound.app/think.wav Resources/sounds/think.wav
 cProcessPCH /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch.gch SysSound_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -73,16 +76,16 @@ i"SysSoundAppDelegate.h"
 i"SysSoundViewController.h"
 
 N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.h
-c000000004CF465A0000000000000037E
-t1291085216
-s894
+c000000004CF5BC1F00000000000005C6
+t1291172895
+s1478
 i<UIKit/UIKit.h>
 i<AudioToolbox/AudioToolbox.h>
 
 N/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m
-c000000004CF5B00E00000000000007A4
-t1291169806
-s1956
+c000000004CF5BCA300000000000009BD
+t1291173027
+s2493
 i"SysSoundViewController.h"
 
 N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib
@@ -91,9 +94,9 @@ t1278889664
 s9033
 
 N/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib
-c000000004C435D6A00000000000043C3
-t1279483242
-s17347
+c000000004CF5BC6F0000000000004EBA
+t1291172975
+s20154
 
 N/Users/robert/dev/iOS/SysSound 2/Resources/images/Default.png
 c000000004C428A350000000000002610
@@ -135,15 +138,35 @@ c000000004C428A350000000000001444
 t1279429173
 s5188
 
+N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav
+c000000004C423A98000000000003CCF8
+t1279408792
+s249080
+
 N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen_full.wav
 c000000004C423A98000000000003CCF8
 t1279408792
 s249080
 
+N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav
+c00000000433624D60000000000331A2C
+t1127621846
+s3349036
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav
+c00000000431907F4000000000018492C
+t1125713908
+s1591596
+
 N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif
 c000000004C428A350000000000005760
 t1279429173
 s22368
+
+N/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav
+c000000004CF5B660000000000007C5BA
+t1291171424
+s509370
 
 N/Users/robert/dev/iOS/SysSound 2/SysSound_Prefix.pch
 c00000000491B4DA400000000000000B1
@@ -153,11 +176,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app
-t1291169808
-s544
+t1291173030
+s680
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM
-t1291169807
+t1291173030
 s102
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Default.png
@@ -197,8 +220,12 @@ t1291165099
 s8
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound
-t1291169807
-s18480
+t1291173030
+s20780
+
+N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/amen.wav
+t1291171534
+s249080
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/amen_full.wav
 t1291169806
@@ -209,16 +236,28 @@ t1291165101
 s1101
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/SysSoundViewController.nib
-t1291165101
-s2537
+t1291172981
+s2499
+
+N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/funky_drummer.wav
+t1291171534
+s3349036
 
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/iTunesArtwork
 t1291165101
 s5188
 
+N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/rock_steady.wav
+t1291171534
+s1591596
+
 N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/tap.aif
 t1291165101
 s22368
+
+N/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/think.wav
+t1291171534
+s509370
 
 N/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSound.LinkFileList
 c000000004CF59DAB0000000000000189
@@ -226,12 +265,12 @@ t1291165099
 s393
 
 N/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o
-t1291165102
-s50480
+t1291172982
+s50668
 
 N/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o
-t1291169807
-s42320
+t1291173030
+s48756
 
 N/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/main.o
 t1291165102
@@ -254,11 +293,11 @@ s1096
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312862606#312862606#0(0"0(0#1#0"8620516704#0"0#
+lSLF07#2@18"Check dependencies312865830#312865830#0(0"0(0#1#0"8633152448#0"0#
 
 CCompileC build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s312857902.800088
-e312857902.996529
+s312865781.828728
+e312865782.007994
 r1
 xCompileC
 xbuild/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o
@@ -267,11 +306,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m312857902#312857902#0(0"0(0#0#62"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m8603611648#1963"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/include" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources/i386" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" -o "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o"0#
+lSLF07#2@70"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m312865781#312865782#0(0"0(0#0#62"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m8631241568#1963"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/include" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources/i386" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundAppDelegate.m" -o "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o"0#
 
 CCompileC build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s312862606.839810
-e312862607.118937
+s312865830.025175
+e312865830.286246
 r1
 xCompileC
 xbuild/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o
@@ -280,7 +319,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m312862606#312862607#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m8619851264#1969"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/include" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources/i386" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" -o "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o"0#
+lSLF07#2@73"Compile /Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m312865830#312865830#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m8628536512#1969"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/include" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources/i386" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources" -include /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch -c "/Users/robert/dev/iOS/SysSound 2/Classes/SysSoundViewController.m" -o "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o"0#
 
 CCompileC build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/main.o "/Users/robert/dev/iOS/SysSound 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s312857902.798746
@@ -304,12 +343,12 @@ x/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib
 lSLF07#2@44"CompileXIB Resources/en.lproj/MainWindow.xib312857899#312857901#0(0"0(0#0#66"/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib8607884032#589"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/MainWindow.nib" "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib"
-s312857899.703156
-e312857901.301987
+s312865780.128420
+e312865781.828226
 r1
 xCompileXIB
 x/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib
-lSLF07#2@56"CompileXIB Resources/en.lproj/SysSoundViewController.xib312857899#312857901#0(0"0(0#0#78"/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib8606907040#613"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/SysSoundViewController.nib" "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@56"CompileXIB Resources/en.lproj/SysSoundViewController.xib312865780#312865781#0(0"0(0#0#78"/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib8742383435839074304#613"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/SysSoundViewController.nib" "/Users/robert/dev/iOS/SysSound 2/Resources/en.lproj/SysSoundViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCpResource build/Release-iphonesimulator/SysSound.app/Default.png Resources/images/Default.png
 s312857901.063136
@@ -374,6 +413,15 @@ xbuild/Release-iphonesimulator/SysSound.app/Icon@2x.png
 xResources/images/Icon@2x.png
 lSLF07#2@33"Copy Resources/images/Icon@2x.png312857901#312857901#0(0"0(0#0#61"/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon@2x.png8599269152#498"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/images/Icon@2x.png" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
 
+CCpResource build/Release-iphonesimulator/SysSound.app/amen.wav Resources/sounds/amen.wav
+s312864334.189060
+e312864334.222207
+r1
+xCpResource
+xbuild/Release-iphonesimulator/SysSound.app/amen.wav
+xResources/sounds/amen.wav
+lSLF07#2@30"Copy Resources/sounds/amen.wav312864334#312864334#0(0"0(0#0#58"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav8620004224#495"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
+
 CCpResource build/Release-iphonesimulator/SysSound.app/amen_full.wav Resources/sounds/amen_full.wav
 s312862606.759518
 e312862606.839194
@@ -382,6 +430,15 @@ xCpResource
 xbuild/Release-iphonesimulator/SysSound.app/amen_full.wav
 xResources/sounds/amen_full.wav
 lSLF07#2@35"Copy Resources/sounds/amen_full.wav312862606#312862606#0(0"0(0#0#63"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen_full.wav8619848032#500"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/amen_full.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
+
+CCpResource build/Release-iphonesimulator/SysSound.app/funky_drummer.wav Resources/sounds/funky_drummer.wav
+s312864334.198659
+e312864334.306430
+r1
+xCpResource
+xbuild/Release-iphonesimulator/SysSound.app/funky_drummer.wav
+xResources/sounds/funky_drummer.wav
+lSLF07#2@39"Copy Resources/sounds/funky_drummer.wav312864334#312864334#0(0"0(0#0#67"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav8619819424#504"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/funky_drummer.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
 
 CCpResource build/Release-iphonesimulator/SysSound.app/iTunesArtwork Resources/images/iTunesArtwork
 s312857901.071444
@@ -392,6 +449,15 @@ xbuild/Release-iphonesimulator/SysSound.app/iTunesArtwork
 xResources/images/iTunesArtwork
 lSLF07#2@35"Copy Resources/images/iTunesArtwork312857901#312857901#0(0"0(0#0#63"/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork8598976064#500"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/images/iTunesArtwork" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
 
+CCpResource build/Release-iphonesimulator/SysSound.app/rock_steady.wav Resources/sounds/rock_steady.wav
+s312864334.190347
+e312864334.222359
+r1
+xCpResource
+xbuild/Release-iphonesimulator/SysSound.app/rock_steady.wav
+xResources/sounds/rock_steady.wav
+lSLF07#2@37"Copy Resources/sounds/rock_steady.wav312864334#312864334#0(0"0(0#0#65"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav8620267968#502"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/rock_steady.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
+
 CCpResource build/Release-iphonesimulator/SysSound.app/tap.aif Resources/sounds/tap.aif
 s312857901.072504
 e312857901.132981
@@ -401,24 +467,33 @@ xbuild/Release-iphonesimulator/SysSound.app/tap.aif
 xResources/sounds/tap.aif
 lSLF07#2@29"Copy Resources/sounds/tap.aif312857901#312857901#0(0"0(0#0#57"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif8600418592#494"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/tap.aif" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
 
+CCpResource build/Release-iphonesimulator/SysSound.app/think.wav Resources/sounds/think.wav
+s312864334.207819
+e312864334.301333
+r1
+xCpResource
+xbuild/Release-iphonesimulator/SysSound.app/think.wav
+xResources/sounds/think.wav
+lSLF07#2@31"Copy Resources/sounds/think.wav312864334#312864334#0(0"0(0#0#59"/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav8620630784#496"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/robert/dev/iOS/SysSound 2/Resources/sounds/think.wav" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
+
 CGenerateDSYMFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM" "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound"
-s312862607.803106
-e312862608.014865
+s312865830.313334
+e312865830.331888
 r1
 xGenerateDSYMFile
 x/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM
 x/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound
-lSLF07#2@116"GenerateDSYMFile build/Release-iphonesimulator/SysSound.app.dSYM build/Release-iphonesimulator/SysSound.app/SysSound312862607#312862608#0(0"0(0#0#84"/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound8620249920#378"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound" -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM"0#
+lSLF07#2@116"GenerateDSYMFile build/Release-iphonesimulator/SysSound.app.dSYM build/Release-iphonesimulator/SysSound.app/SysSound312865830#312865830#0(0"0(0#0#84"/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound8632700224#378"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound" -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM"0#
 
 CLd "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound" normal i386
-s312862607.119041
-e312862607.802989
+s312865830.286351
+e312865830.313210
 r1
 xLd
 x/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound
 xnormal
 xi386
-lSLF07#2@89"Link /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound312862607#312862607#0(0"0(0#0#0"8610282304#893"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" -filelist "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSound.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework AudioToolbox -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound"0#
+lSLF07#2@89"Link /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound312865830#312865830#0(0"0(0#0#0"8607498144#893"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" -filelist "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSound.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework AudioToolbox -o "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound"0#
 
 CProcessInfoPlistFile "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Info.plist" Info.plist
 s312857899.680465
@@ -443,10 +518,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile SysSound_Prefix.pch312857901#312857902#0(0"0(0#0#52"/Users/robert/dev/iOS/SysSound 2/SysSound_Prefix.pch8607653056#1818"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-generated-files.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-own-target-headers.hmap" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-all-target-headers.hmap" -iquote "/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/SysSound-project-headers.hmap" "-F/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator" "-I/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/include" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources/i386" "-I/Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/DerivedSources" -c "/Users/robert/dev/iOS/SysSound 2/SysSound_Prefix.pch" -o /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch.gch0#
 
 CTouch "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"
-s312862608.014967
-e312862608.069402
+s312865830.331991
+e312865830.335179
 r1
 xTouch
 x/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app
-lSLF07#2@81"Touch /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app312862608#312862608#0(0"0(0#0#0"8619977376#273"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
+lSLF07#2@81"Touch /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app312865830#312865830#0(0"0(0#0#0"8629735616#273"    cd "/Users/robert/dev/iOS/SysSound 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app"0#
 

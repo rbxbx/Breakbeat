@@ -16,16 +16,35 @@ Copyright (C) 2010 Apple Inc. All Rights Reserved.
 
 @interface SysSoundViewController : UIViewController {
 
-	CFURLRef		soundFileURLRef;
-	SystemSoundID	soundFileObject;
+	CFURLRef	amenFileURLRef;
+	SystemSoundID	amenFileObject;
+
+	CFURLRef	thinkFileURLRef;
+	SystemSoundID	thinkFileObject;
+
+	CFURLRef	funkyDrummerFileURLRef;
+	SystemSoundID	funkyDrummerFileObject;
+
+	CFURLRef	rockSteadyFileURLRef;
+	SystemSoundID	rockSteadyFileObject;
 
 }
 
-@property (readwrite)	CFURLRef		soundFileURLRef;
-@property (readonly)	SystemSoundID	soundFileObject;
+@property (readwrite)	CFURLRef	amenFileURLRef;
+@property (readonly)	SystemSoundID	amenFileObject;
 
-- (IBAction) playSystemSound: (id) sender;
-- (IBAction) playAlertSound: (id) sender;
-- (IBAction) vibrate: (id) sender;
+@property (readwrite)	CFURLRef	thinkFileURLRef;
+@property (readonly)	SystemSoundID	thinkFileObject;
+
+@property (readwrite)	CFURLRef	funkyDrummerFileURLRef;
+@property (readonly)	SystemSoundID	funkyDrummerFileObject;
+
+@property (readwrite)	CFURLRef	rockSteadyFileURLRef;
+@property (readonly)	SystemSoundID	rockSteadyFileObject;
+
+- (IBAction) playAmenSound: (id) sender;
+- (IBAction) playThinkSound: (id) sender;
+- (IBAction) playFunkyDrummerSound: (id) sender;
+- (IBAction) playRockSteadySound: (id) sender;
 
 @end

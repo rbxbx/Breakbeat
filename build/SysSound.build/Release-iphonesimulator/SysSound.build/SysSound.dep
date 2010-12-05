@@ -1,11 +1,14 @@
-f53ecb55456ea952cb354fa895f6c9e1 47054cef685c860fa245a92bdd3022b1 ffffffffffffffffffffffffffffffff 544 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app
-00000000000000000000000000000000 8e4d092706f27d376d204f1d3e8c07bc ffffffffffffffffffffffffffffffff 249080 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/amen_full.wav
-00000000000000000000000000000000 6891bc98c813a80be5ccad1e812678b5 ffffffffffffffffffffffffffffffff 102 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM
-3d29f92a8f7e65a639bc52b870975065 4c0f8846c6b2c48af611e6e817ce816d ffffffffffffffffffffffffffffffff 18480 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound
-7b2cd67a9d66b02e276746f3a845329b 24a0b54313ff67f0fbf9b6e8409dc510 ffffffffffffffffffffffffffffffff 42320 /Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o
-7b2cd67a9d522882276746f3a8453639 b55db1f019e6dddd0f59332e5ff8f3c6 ffffffffffffffffffffffffffffffff 50480 /Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o
+7b2cd67a9d67653c276746f3a8453a3a 24a0b54313ff67f0fbf9b6e8409dc510 ffffffffffffffffffffffffffffffff 48756 /Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundViewController.o
+7b2cd67a9d53f13d276746f3a8453081 b55db1f019e6dddd0f59332e5ff8f3c6 ffffffffffffffffffffffffffffffff 50668 /Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/SysSoundAppDelegate.o
 7b2cd67a9d5221b6276746f3a8453cb4 d7f82be3180166acea7b918dc7f4f415 ffffffffffffffffffffffffffffffff 6276 /Users/robert/dev/iOS/SysSound 2/build/SysSound.build/Release-iphonesimulator/SysSound.build/Objects-normal/i386/main.o
+00000000000000000000000000000000 6891bc98c813a80be5ccad1e812678b5 ffffffffffffffffffffffffffffffff 102 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app.dSYM
+b27162b4c2f0aa22f306e8b087e889e3 47054cef685c860fa245a92bdd3022b1 ffffffffffffffffffffffffffffffff 680 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app
+3d29f92a8f7e690b39bc52b870975e7c 4c0f8846c6b2c48af611e6e817ce816d ffffffffffffffffffffffffffffffff 20780 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/SysSound
 00000000491b47e40000000000001e76 7b2cd67ad47c2854276746f3a84528b5 ffffffffffffffffffffffffffffffff 15117520 /var/folders/mp/mprm06eCENKSMpEMShtdGE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SysSound_Prefix-cxwgitlocjfgkfbfouqwyosqiexy/SysSound_Prefix.pch.gch
+00000000000000000000000000000000 be9d573a65adaac5b6f6690ed6ff3ce8 ffffffffffffffffffffffffffffffff 509370 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/think.wav
+00000000000000000000000000000000 f2803ac1de6ee4f45a3ccb5ec1a0e162 ffffffffffffffffffffffffffffffff 3349036 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/funky_drummer.wav
+00000000000000000000000000000000 dc8fc46dd696a99c891a8b39cf3da0e4 ffffffffffffffffffffffffffffffff 1591596 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/rock_steady.wav
+00000000000000000000000000000000 59900950ec8f744230c3c16cf4f039b0 ffffffffffffffffffffffffffffffff 249080 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/amen.wav
 00000000000000000000000000000000 4be053798518edbb02be23ec08279d12 ffffffffffffffffffffffffffffffff 22368 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/tap.aif
 00000000000000000000000000000000 aff9693551735210958bee04c877dc8b ffffffffffffffffffffffffffffffff 5188 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/iTunesArtwork
 00000000000000000000000000000000 d671f79a6efa7b00c73da74ff5fabf00 ffffffffffffffffffffffffffffffff 1252 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Icon@2x.png
@@ -15,7 +18,8 @@ f53ecb55456ea952cb354fa895f6c9e1 47054cef685c860fa245a92bdd3022b1 ffffffffffffff
 00000000000000000000000000000000 8f9732493ab9a9a8eea3024bb0320e95 ffffffffffffffffffffffffffffffff 992 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Icon-Small-50.png
 00000000000000000000000000000000 9c72a32e6594dcc69497f3a194a8d510 ffffffffffffffffffffffffffffffff 1063 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Icon-72.png
 00000000000000000000000000000000 8078cd939ec7aef8c4431c47f3c94e2f ffffffffffffffffffffffffffffffff 9744 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Default.png
-000000004c435d6a00000000000043c3 74474e818fc249a49e9f1eadda8b38a8 ffffffffffffffffffffffffffffffff 2537 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/SysSoundViewController.nib
+000000004cf5bc6f0000000000004eba 74474e818fc249a49e9f1eadda8b38a8 ffffffffffffffffffffffffffffffff 2499 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/SysSoundViewController.nib
 000000004c3a4ec00000000000002349 65a5dfa2b4ef6b10dabb6eceb9d5b24b ffffffffffffffffffffffffffffffff 1101 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/en.lproj/MainWindow.nib
 00000000000000000000000000000000 1013b083c5d995e240ceff8b8f7fa99c ffffffffffffffffffffffffffffffff 8 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/PkgInfo
 00000000000000000000000000000000 1013b083c5d995e240ceff8b8f7fa99c ffffffffffffffffffffffffffffffff 723 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/Info.plist
+00000000000000000000000000000000 8e4d092706f27d376d204f1d3e8c07bc ffffffffffffffffffffffffffffffff 249080 /Users/robert/dev/iOS/SysSound 2/build/Release-iphonesimulator/SysSound.app/amen_full.wav
