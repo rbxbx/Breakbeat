@@ -12,12 +12,12 @@
 		0A5808E211F38FF6004F0A23 /* SysSoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5808D311F38FF6004F0A23 /* SysSoundViewController.xib */; };
 		0A5808E411F38FF6004F0A23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A5808D711F38FF6004F0A23 /* Default.png */; };
 		0A5808EB11F38FF6004F0A23 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0A5808DE11F38FF6004F0A23 /* iTunesArtwork */; };
-		0A5808EC11F38FF6004F0A23 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0A5808E011F38FF6004F0A23 /* tap.aif */; };
 		1D3623260D0F684500981E51 /* SysSoundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SysSoundAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28D7ACF80DDB3853001CB0EB /* SysSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SysSoundViewController.m */; };
+		334C44B112ADE9BD00C84ABE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334C44B012ADE9BD00C84ABE /* AVFoundation.framework */; };
 		E18995D312A5E70100AF6D78 /* amen.wav in Resources */ = {isa = PBXBuildFile; fileRef = E18995D212A5E70100AF6D78 /* amen.wav */; };
 		E18995F212A5EE0F00AF6D78 /* rock_steady.wav in Resources */ = {isa = PBXBuildFile; fileRef = E18995EF12A5EE0F00AF6D78 /* rock_steady.wav */; };
 		E18995F312A5EE0F00AF6D78 /* funky_drummer.wav in Resources */ = {isa = PBXBuildFile; fileRef = E18995F012A5EE0F00AF6D78 /* funky_drummer.wav */; };
@@ -31,7 +31,6 @@
 		0A5808D411F38FF6004F0A23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SysSoundViewController.xib; sourceTree = "<group>"; };
 		0A5808D711F38FF6004F0A23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0A5808DE11F38FF6004F0A23 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		0A5808E011F38FF6004F0A23 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* SysSoundAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysSoundAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SysSoundAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysSoundAppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		28D7ACF70DDB3853001CB0EB /* SysSoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysSoundViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Breakbeat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Breakbeat_Prefix.pch; sourceTree = "<group>"; };
+		334C44B012ADE9BD00C84ABE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E18995D212A5E70100AF6D78 /* amen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = amen.wav; sourceTree = "<group>"; };
 		E18995EF12A5EE0F00AF6D78 /* rock_steady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_steady.wav; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				0A1104470E2C059D0000B08D /* AudioToolbox.framework in Frameworks */,
+				334C44B112ADE9BD00C84ABE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +103,6 @@
 				E18995F012A5EE0F00AF6D78 /* funky_drummer.wav */,
 				E18995F112A5EE0F00AF6D78 /* think.wav */,
 				E18995D212A5E70100AF6D78 /* amen.wav */,
-				0A5808E011F38FF6004F0A23 /* tap.aif */,
 			);
 			name = sounds;
 			path = Resources/sounds;
@@ -154,6 +154,7 @@
 				0A1104460E2C059D0000B08D /* AudioToolbox.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				334C44B012ADE9BD00C84ABE /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +213,6 @@
 				0A5808E211F38FF6004F0A23 /* SysSoundViewController.xib in Resources */,
 				0A5808E411F38FF6004F0A23 /* Default.png in Resources */,
 				0A5808EB11F38FF6004F0A23 /* iTunesArtwork in Resources */,
-				0A5808EC11F38FF6004F0A23 /* tap.aif in Resources */,
 				E18995D312A5E70100AF6D78 /* amen.wav in Resources */,
 				E18995F212A5EE0F00AF6D78 /* rock_steady.wav in Resources */,
 				E18995F312A5EE0F00AF6D78 /* funky_drummer.wav in Resources */,
