@@ -2,17 +2,11 @@
 
 @implementation SysSoundViewController
 
-@synthesize amenFileURLRef;
-@synthesize amenFileObject;
-
-@synthesize thinkFileURLRef;
-@synthesize thinkFileObject;
-
-@synthesize funkyDrummerFileURLRef;
-@synthesize funkyDrummerFileObject;
-
-@synthesize rockSteadyFileURLRef;
-@synthesize rockSteadyFileObject;
+@synthesize currentPlayer;
+@synthesize amenPlayer;
+@synthesize thinkPlayer;
+@synthesize funkyDrummerPlayer;
+@synthesize rockSteadyPlayer;
 
 - (void) viewDidLoad {
 
@@ -31,55 +25,51 @@
 
     NSURL *rockSteadyBreak   = [[NSBundle mainBundle] URLForResource: @"rock_steady"
                                                        withExtension: @"wav"];
-
-
-    self.amenFileURLRef = (CFURLRef) [amenBreak retain];
-    self.thinkFileURLRef = (CFURLRef) [thinkBreak retain];
-    self.funkyDrummerFileURLRef = (CFURLRef) [funkyDrummerBreak retain];
-    self.rockSteadyFileURLRef = (CFURLRef) [rockSteadyBreak retain];
-
-    AudioServicesCreateSystemSoundID (
-        amenFileURLRef,
-        &amenFileObject
-    );
-    AudioServicesCreateSystemSoundID (
-        thinkFileURLRef,
-        &thinkFileObject
-    );
-    AudioServicesCreateSystemSoundID (
-        funkyDrummerFileURLRef,
-        &funkyDrummerFileObject
-    );
-    AudioServicesCreateSystemSoundID (
-        rockSteadyFileURLRef,
-        &rockSteadyFileObject
-    );
+	
+	self.amenPlayer          = [self initPlayerWithFileURL:amenBreak];
+	self.thinkPlayer         = [self initPlayerWithFileURL:thinkBreak];
+	self.funkyDrummerPlayer  = [self initPlayerWithFileURL:funkyDrummerBreak];
+	self.rockSteadyPlayer    = [self initPlayerWithFileURL:rockSteadyBreak];
 }
-
 
 - (IBAction) playAmenSound: (id) sender {
-    AudioServicesPlaySystemSound (amenFileObject);
+	[self switchPlayer:amenPlayer];
+	[self playCurrent];
 }
 
-- (IBAction) playThinkSound: (id) sender {
-    AudioServicesPlaySystemSound (thinkFileObject);
+-(IBAction) playThinkSound: (id) sender {
+	[self switchPlayer:thinkPlayer];
+	[self playCurrent];
 }
 
 - (IBAction) playFunkyDrummerSound: (id) sender {
-    AudioServicesPlaySystemSound (funkyDrummerFileObject);
+	[self switchPlayer:funkyDrummerPlayer];
+	[self playCurrent];
 }
 
 - (IBAction) playRockSteadySound: (id) sender {
-    AudioServicesPlaySystemSound (rockSteadyFileObject);
+	[self switchPlayer:rockSteadyPlayer];
+	[self playCurrent];
+}
+
+- (void) switchPlayer: (AVAudioPlayer *) newPlayer {
+	self.currentPlayer = newPlayer;
+	[currentPlayer prepareToPlay];
+}
+
+- (void) playCurrent {
+	[currentPlayer play];
+}
+
+- (AVAudioPlayer *) initPlayerWithFileURL: (NSURL *) file {
+	[[AVAudioPlayer alloc] initWithContentsOfURL:file error: nil];
 }
 
 - (void) dealloc {
-
-    AudioServicesDisposeSystemSoundID (amenFileObject);
-    AudioServicesDisposeSystemSoundID (thinkFileObject);
-    AudioServicesDisposeSystemSoundID (funkyDrummerFileObject);
-    AudioServicesDisposeSystemSoundID (rockSteadyFileObject);
-    CFRelease (amenFileURLRef);
+	[amenPlayer release];
+	[thinkPlayer release];
+	[funkyDrummerPlayer	release];
+	[rockSteadyPlayer release];
     [super dealloc];
 }
 
